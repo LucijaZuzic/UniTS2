@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-missing_size = 3
+missing_size = 30
 
 username = "G:/MarkovOtoTrak2/"
 username = "C:/Users/lzuzi/Documents/GitHub/MarkovOtoTrak2/"
