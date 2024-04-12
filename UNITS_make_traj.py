@@ -2,12 +2,14 @@ import pickle
 import pandas as pd
 import numpy as np
 
-username = "Admin"
-username = "lzuzi"
+missing_size = 3
+
+username = "G:/MarkovOtoTrak2/"
+username = "C:/Users/lzuzi/Documents/GitHub/MarkovOtoTrak2/"
 
 def change_angle(angle, name_file):
     
-    file_with_ride = pd.read_csv("C:/Users/" + username + "/Documents/GitHub/MarkovOtoTrak/" + name_file) 
+    file_with_ride = pd.read_csv(username + name_file) 
     
     x_dir = list(file_with_ride["fields_longitude"])[0] < list(file_with_ride["fields_longitude"])[-1]
     y_dir = list(file_with_ride["fields_latitude"])[0] < list(file_with_ride["fields_latitude"])[-1]
@@ -125,7 +127,7 @@ for model_name in predicted_all["speed"]:
         min_range_speed_dir = min(range_speed, range_dir)
 
         for ix in range(min_range_speed_dir):
-            new_long, new_lat = get_sides_from_angle(predicted_all["speed"][model_name][k][ix + speed_offset] / 111 / 0.1 / 3600, change_angle(predicted_all["direction"][model_name][k][ix + dir_offset], k))
+            new_long, new_lat = get_sides_from_angle(predicted_all["speed"][model_name][k][ix + speed_offset] / 111 / 0.1 / 3600 * missing_size, change_angle(predicted_all["direction"][model_name][k][ix + dir_offset], k))
             predicted_long[model_name]["long speed ones dir"][k].append(predicted_long[model_name]["long speed ones dir"][k][-1] + new_long)
             predicted_lat[model_name]["lat speed ones dir"][k].append(predicted_lat[model_name]["lat speed ones dir"][k][-1] + new_lat)
             
