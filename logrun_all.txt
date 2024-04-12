@@ -1,0 +1,1124 @@
+Epoch: 10 cost time: 501.9337556362152
+Epoch: 10, Steps: 21685 | Avg Train Loss: 0.0000000
+wandb: / 0.568 MB of 0.568 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:                         loss_avg █▄▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                             norm █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_cls_loss_direction █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   train_cls_loss_latitude_no_abs █▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:  train_cls_loss_longitude_no_abs █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:             train_cls_loss_speed █▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:              train_cls_loss_time █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                   train_loss_avg █▁▁▁▁▁▁▁▁▁
+wandb:        train_mask_loss_direction █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:  train_mask_loss_latitude_no_abs █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train_mask_loss_longitude_no_abs █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            train_mask_loss_speed █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:             train_mask_loss_time ▂█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_sum_loss_direction █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   train_sum_loss_latitude_no_abs █▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:  train_sum_loss_longitude_no_abs █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:             train_sum_loss_speed █▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:              train_sum_loss_time █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:
+wandb: Run summary:
+wandb:                         loss_avg 0.0
+wandb:                             norm 0
+wandb:         train_cls_loss_direction 0.0
+wandb:   train_cls_loss_latitude_no_abs 0.0
+wandb:  train_cls_loss_longitude_no_abs 0.0
+wandb:             train_cls_loss_speed 0.0
+wandb:              train_cls_loss_time 0.0
+wandb:                   train_loss_avg 0.0
+wandb:        train_mask_loss_direction 0.0
+wandb:  train_mask_loss_latitude_no_abs 0.0
+wandb: train_mask_loss_longitude_no_abs 0.0
+wandb:            train_mask_loss_speed 0.0
+wandb:             train_mask_loss_time 0.0
+wandb:         train_sum_loss_direction 0.0
+wandb:   train_sum_loss_latitude_no_abs 0.0
+wandb:  train_sum_loss_longitude_no_abs 0.0
+wandb:             train_sum_loss_speed 0.0
+wandb:              train_sum_loss_time 0.0
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/pretrain/runs/17au9mf9
+wandb:  View job at https://wandb.ai/lucija_zuzic/pretrain/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTAxMjQwOQ==/version_details/v23
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240329_053317-17au9mf9\logs
+
+Epoch: 10 cost time: 642.986599445343
+Epoch: 10, Steps: 21660 | Avg Train Loss: 0.2127696
+wandb: \ 0.677 MB of 0.677 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:                         loss_avg █▄▃▃▂▂▂▂▂▃▃▃▁▂▂▂▁▂▂▃▁▂▂▂▂▂▂▂▂▃▃▃▃▂▂▂▃▃▃▃
+wandb:                             norm █▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_cls_loss_direction ▇█▄▃▁▁▅▅▇▁▁▃▅▁▃▆▃▄▁▁▆▁▅▄█▁▆▄▄▁▇▃▁▁▄▄▃▁▄▄
+wandb:   train_cls_loss_latitude_no_abs ▅▄▅▁▃▁▃▄▃▁█▂▇▄▁▁▁▃▇▄▅▂▁▄▁▄▁▁▁▂▄▁▁▃▁▁▄▄▃▄
+wandb:  train_cls_loss_longitude_no_abs ▃▃▅▂▂▆█▃▂▁▂▅▄▂▂▃▃▁▁▁▂▁▂▄▃▂▂▂▁▃▂▃▂▄▁▂▃▃▃▁
+wandb:             train_cls_loss_speed ▁▅▆▁▅▁▆▁▁▄▄▁▆▁▁▅▅▁▄▅▁▁▁▅▅▁▁▁▄▁▄█▅▁▁▅▁▁▄▄
+wandb:              train_cls_loss_time ▄▁▅▅▆▁▁▁▅▄▅▁█▃▄▁▁▁▁▅▁▄▆▄▅█▅▅▁▄▁▅▄▅▅▁▅▁▃▁
+wandb:                   train_loss_avg █▁▄▃▆▅▂▇▅▆
+wandb:        train_mask_loss_direction ▆█▄▃▁▁▅▅▇▁▁▃▅▁▃▆▃▄▁▁▇▁▆▄█▁▆▄▄▁█▄▁▁▄▄▃▁▄▄
+wandb:  train_mask_loss_latitude_no_abs ▅▅▅▁▃▁▃▄▃▁█▂▆▄▁▁▁▃▇▄▅▂▁▄▁▄▁▁▁▂▄▁▁▃▁▁▄▄▃▄
+wandb: train_mask_loss_longitude_no_abs ▃▄▄▂▂▆█▃▂▁▂▅▄▂▂▃▃▁▁▁▂▁▂▄▃▂▂▂▁▃▃▃▂▄▁▂▃▃▃▁
+wandb:            train_mask_loss_speed ▁▅▆▁▅▁▆▁▁▄▄▁▆▁▁▅▅▁▄▅▁▁▁▅▅▁▁▁▄▁▄█▅▁▁▅▁▁▄▄
+wandb:             train_mask_loss_time ▄▁▅▅▆▁▁▁▅▄▅▁▇▃▄▁▁▁▁▅▁▄▆▄▅█▅▅▁▄▁▄▄▅▅▁▅▁▃▁
+wandb:         train_sum_loss_direction ▆█▄▃▁▁▅▅▇▁▁▃▅▁▃▆▃▄▁▁▇▁▅▄█▁▆▄▄▁▇▄▁▁▄▄▃▁▄▄
+wandb:   train_sum_loss_latitude_no_abs ▅▄▅▁▃▁▃▄▃▁█▂▇▄▁▁▁▃▇▄▅▂▁▄▁▄▁▁▁▂▄▁▁▃▁▁▄▄▃▄
+wandb:  train_sum_loss_longitude_no_abs ▃▄▅▂▂▆█▃▂▁▂▅▄▂▂▃▃▁▁▁▂▁▂▄▃▂▂▂▁▃▃▃▂▄▁▂▃▃▃▁
+wandb:             train_sum_loss_speed ▁▅▆▁▅▁▆▁▁▄▄▁▆▁▁▅▅▁▄▅▁▁▁▅▅▁▁▁▄▁▄█▅▁▁▅▁▁▄▄
+wandb:              train_sum_loss_time ▄▁▅▅▆▁▁▁▅▄▅▁█▃▄▁▁▁▁▅▁▄▆▄▅█▅▅▁▄▁▄▄▅▅▁▅▁▃▁
+wandb:
+wandb: Run summary:
+wandb:                         loss_avg 0.21277
+wandb:                             norm 0
+wandb:         train_cls_loss_direction 0.0358
+wandb:   train_cls_loss_latitude_no_abs 0.0
+wandb:  train_cls_loss_longitude_no_abs 0.00569
+wandb:             train_cls_loss_speed 0.0
+wandb:              train_cls_loss_time 0.0
+wandb:                   train_loss_avg 0.21277
+wandb:        train_mask_loss_direction 0.03644
+wandb:  train_mask_loss_latitude_no_abs 0.0
+wandb: train_mask_loss_longitude_no_abs 0.0057
+wandb:            train_mask_loss_speed 0.0
+wandb:             train_mask_loss_time 0.0
+wandb:         train_sum_loss_direction 0.00056
+wandb:   train_sum_loss_latitude_no_abs 0.0
+wandb:  train_sum_loss_longitude_no_abs 9e-05
+wandb:             train_sum_loss_speed 0.0
+wandb:              train_sum_loss_time 0.0
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/pretrain/runs/zqoos2b7
+wandb:  View job at https://wandb.ai/lucija_zuzic/pretrain/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTAxMjQwOQ==/version_details/v24
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240329_070858-zqoos2b7\logs
+
+Epoch: 10 cost time: 542.8325290679932
+Epoch: 10, Steps: 21630 | Avg Train Loss: 0.3568861
+wandb: - 0.670 MB of 0.670 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:                         loss_avg █▄▃▃▁▂▂▃▂▃▃▃▃▃▂▂▂▃▃▃▃▂▂▂▂▂▂▂▂▂▂▃▃▂▂▂▂▃▂▂
+wandb:                             norm █▂▃▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_cls_loss_direction ▄▃▂▄▂▃▄▂▁▂▄▃▆▄▃█▂▂▁▂▁▅▇▃▃▂▂▃▄▄▁▅▂█▇▃▂▂▅▃
+wandb:   train_cls_loss_latitude_no_abs ▃▃█▃▁▄▁▂▁▁▂▃▃▁▃▂▂▂▂▂▁▄▃▂▄▃▃▃▁▁▂▁▃▄▂▂▄▄▁▂
+wandb:  train_cls_loss_longitude_no_abs ▅▄█▂▂▁▅▃▁▄▂▃▁▄▂▅▂▅▄▅▂▁▂▂▂▅▂▃▁▃▃▁▃▁▃▂▄▆▄▃
+wandb:             train_cls_loss_speed ▂▅▅▂▃▇▁▄▄▄▄▁▂▁▃▁▄▁▃▄▁▁▂▄▃▃▂▂▅▂█▄▂▃▁▂▂▃▂▁
+wandb:              train_cls_loss_time █▃▂▁▄▁▃▄▃▂▄▅▂▂▃▃▃▂▂▄▂▄▂▃▂▃▃▂▄▃▂▃▃▃▇▄▃▄▅▃
+wandb:                   train_loss_avg █▅▇▄▄▂▁▃▁▂
+wandb:        train_mask_loss_direction ▄▃▃▄▂▃▄▂▁▃▄▃▆▄▃█▂▂▁▂▁▅▇▃▃▂▂▃▄▄▁▅▂█▇▃▂▂▅▃
+wandb:  train_mask_loss_latitude_no_abs ▃▃█▃▁▄▁▂▁▁▂▃▃▁▃▂▂▂▂▂▁▄▃▂▄▃▃▃▁▁▂▁▃▄▂▂▄▄▁▂
+wandb: train_mask_loss_longitude_no_abs ▅▄█▂▂▁▅▃▁▄▂▃▁▄▂▅▂▅▄▅▂▁▂▂▂▅▂▃▁▃▃▁▃▁▃▂▄▆▄▃
+wandb:            train_mask_loss_speed ▂▅▅▂▃▇▁▄▄▅▄▁▂▁▃▁▄▁▃▄▁▁▂▄▄▃▂▂▅▂█▄▂▃▁▂▂▃▂▁
+wandb:             train_mask_loss_time █▃▂▁▄▁▃▄▃▂▄▅▂▂▃▃▃▂▂▄▂▄▂▃▂▃▃▂▄▃▂▃▃▃▇▄▃▄▅▃
+wandb:         train_sum_loss_direction ▄▃▃▄▂▃▄▂▁▃▄▃▆▄▃█▂▂▁▂▁▅▇▃▃▂▂▃▄▄▁▅▂█▇▃▂▂▅▃
+wandb:   train_sum_loss_latitude_no_abs ▃▃█▃▁▄▁▂▁▁▂▃▃▁▃▂▂▂▂▂▁▄▃▂▄▃▃▃▁▁▂▁▃▄▂▂▄▄▁▂
+wandb:  train_sum_loss_longitude_no_abs ▅▄█▂▂▁▅▃▁▄▂▃▁▄▂▅▂▅▄▅▂▁▂▂▂▅▂▃▁▃▃▁▃▁▃▂▄▆▄▃
+wandb:             train_sum_loss_speed ▂▅▅▂▃▇▁▄▄▅▄▁▂▁▃▁▄▁▃▄▁▁▂▄▃▃▂▂▅▂█▄▂▃▁▂▂▃▂▁
+wandb:              train_sum_loss_time █▃▂▁▄▁▃▄▃▂▄▅▂▂▃▃▃▂▂▄▂▄▂▃▂▃▃▂▄▃▂▃▃▃▇▄▃▄▅▃
+wandb:
+wandb: Run summary:
+wandb:                         loss_avg 0.35689
+wandb:                             norm 0
+wandb:         train_cls_loss_direction 0.02508
+wandb:   train_cls_loss_latitude_no_abs 0.19191
+wandb:  train_cls_loss_longitude_no_abs 0.02634
+wandb:             train_cls_loss_speed 0.01513
+wandb:              train_cls_loss_time 1.19217
+wandb:                   train_loss_avg 0.35689
+wandb:        train_mask_loss_direction 0.02497
+wandb:  train_mask_loss_latitude_no_abs 0.19301
+wandb: train_mask_loss_longitude_no_abs 0.02635
+wandb:            train_mask_loss_speed 0.01522
+wandb:             train_mask_loss_time 1.19967
+wandb:         train_sum_loss_direction 0.00039
+wandb:   train_sum_loss_latitude_no_abs 0.00301
+wandb:  train_sum_loss_longitude_no_abs 0.00041
+wandb:             train_sum_loss_speed 0.00024
+wandb:              train_sum_loss_time 0.01869
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/pretrain/runs/1fcf818p
+wandb:  View job at https://wandb.ai/lucija_zuzic/pretrain/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTAxMjQwOQ==/version_details/v25
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240329_084132-1fcf818p\logs
+
+Epoch: 10 cost time: 516.3128926753998
+Epoch: 10, Steps: 21605 | Avg Train Loss: 0.3572490
+wandb: - 0.670 MB of 0.670 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:                         loss_avg █▆▅▅▄▃▃▃▃▂▃▂▂▂▂▂▂▃▃▃▁▂▂▂▃▂▂▂▁▃▃▃▂▃▂▂▁▂▂▂
+wandb:                             norm █▇▄▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_cls_loss_direction ▅█▆▃▂▇▄▃▁▆▆▂▁▇█▅▃▄▁▁▄▇▃█▄▇▅▄▃▁▄▇▆█▄▅▆▃▆▅
+wandb:   train_cls_loss_latitude_no_abs ▂▁▃▃▃▂▂▂▂▂▂▂▂▂▃▂▂▁▂▃▃▁▁▁▂▁▁▁▁▃▁█▂▁▂▂▂▁▁▁
+wandb:  train_cls_loss_longitude_no_abs ▁▃▂▃█▅▂▂▂▂▁▂▂▃▁▂▂▂▂▁▁▁▂▁▃▂▁▄▂▂▂▁▃▁▂▂▂▂▂▂
+wandb:             train_cls_loss_speed ▆▄▆▇▁▂█▆▆▇▆▇▅▂▆▄▄▇▆▂▆▆▆▇▆▇▄▂▂▆▇▄▂▂▂▁▂▂██
+wandb:              train_cls_loss_time ▅▃▃▃▃▄▄▂▃▃▅▃▃▃▄▂▁▁▂▃▂█▃▂▂▄▂▂▃▂▃▄▂▅▁▅▃▃▂▂
+wandb:                   train_loss_avg █▃▁▁▃▂▂▂▂▁
+wandb:        train_mask_loss_direction ▅█▆▃▂▇▄▃▁▆▆▂▁▇█▅▃▄▁▁▄▇▃█▄▇▅▄▃▁▄▇▆█▄▆▆▃▆▅
+wandb:  train_mask_loss_latitude_no_abs ▂▁▃▄▃▂▂▂▂▂▂▂▂▂▂▂▂▁▂▃▃▁▁▁▂▁▁▁▁▃▁█▂▁▂▂▂▁▁▁
+wandb: train_mask_loss_longitude_no_abs ▁▃▂▃█▅▂▂▂▂▁▃▂▃▁▂▂▃▂▁▁▁▂▁▃▂▁▄▂▃▂▁▄▂▂▂▃▂▃▂
+wandb:            train_mask_loss_speed ▆▄▆▇▁▂█▆▅▇▆▇▅▂▆▄▄▇▆▂▆▆▆▇▇▇▄▂▂▆▇▅▂▂▁▁▂▂██
+wandb:             train_mask_loss_time ▅▃▃▃▃▄▄▂▃▃▅▃▃▃▄▂▁▁▂▃▂█▃▂▂▄▂▂▂▂▃▄▂▅▁▅▃▃▂▂
+wandb:         train_sum_loss_direction ▅█▆▃▂▇▄▃▁▆▆▂▁▇█▅▃▄▁▁▄▇▃█▄▇▅▄▃▁▄▇▆█▄▅▆▃▆▅
+wandb:   train_sum_loss_latitude_no_abs ▂▁▃▄▃▂▂▂▂▂▂▂▂▂▃▂▂▁▂▃▃▁▁▁▂▁▁▁▁▃▁█▂▁▂▂▂▁▁▁
+wandb:  train_sum_loss_longitude_no_abs ▁▃▂▃█▅▂▂▂▂▁▂▂▃▁▂▂▃▂▁▁▁▂▁▃▂▁▄▂▂▂▁▃▂▂▂▂▂▃▂
+wandb:             train_sum_loss_speed ▆▄▆▇▁▂█▆▅▇▆▇▅▂▆▄▄▇▆▂▆▆▆▇▆▇▄▂▂▆▇▅▂▂▁▁▂▂██
+wandb:              train_sum_loss_time ▅▃▃▃▃▄▄▂▃▃▅▃▃▃▄▂▁▁▂▃▂█▃▂▂▄▂▂▂▂▃▄▂▅▁▅▃▃▂▂
+wandb:
+wandb: Run summary:
+wandb:                         loss_avg 0.35725
+wandb:                             norm 0
+wandb:         train_cls_loss_direction 0.12015
+wandb:   train_cls_loss_latitude_no_abs 0.02168
+wandb:  train_cls_loss_longitude_no_abs 0.02324
+wandb:             train_cls_loss_speed 0.02105
+wandb:              train_cls_loss_time 0.8044
+wandb:                   train_loss_avg 0.35725
+wandb:        train_mask_loss_direction 0.11505
+wandb:  train_mask_loss_latitude_no_abs 0.02173
+wandb: train_mask_loss_longitude_no_abs 0.02296
+wandb:            train_mask_loss_speed 0.02103
+wandb:             train_mask_loss_time 0.78234
+wandb:         train_sum_loss_direction 0.00184
+wandb:   train_sum_loss_latitude_no_abs 0.00034
+wandb:  train_sum_loss_longitude_no_abs 0.00036
+wandb:             train_sum_loss_speed 0.00033
+wandb:              train_sum_loss_time 0.0124
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/pretrain/runs/1v6piy5x
+wandb:  View job at https://wandb.ai/lucija_zuzic/pretrain/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTAxMjQwOQ==/version_details/v26
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240329_102333-1v6piy5x\logs
+
+Epoch: 10 cost time: 523.7617242336273
+Epoch: 10, Steps: 21575 | Avg Train Loss: 0.3325943
+wandb: / 0.668 MB of 0.668 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:                         loss_avg █▅▄▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▂▁▂▂▂▂▂▂▁▂▁▁▁▂▂
+wandb:                             norm ▇█▄▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train_cls_loss_direction ▆▂▃▁▅▅▅▄▅▅▂█▃▂▄▁▃▂▂▁▃▂▄▁▁▅▂▄▅▆▇▃▆▂▂▁▂▂▃▃
+wandb:   train_cls_loss_latitude_no_abs ▅▃▃▂▂▄▂▁▃▃▃▁▃▃▂▁▅▁▁▂▂▁▁▂▂▂█▁▃▃▁▂▁▁▃▂▂▃▂▁
+wandb:  train_cls_loss_longitude_no_abs ▆▃▃▃▅▆▃▄▃▃▂▇▄▃▁█▃▃▃▄▅▁▃▄▂▃▃▇▂▂▁▂▄▄▂▄▃▃▂▃
+wandb:             train_cls_loss_speed ▆▄▆▆█▅▃▇▆▁▇▃▆▇▃▄▄▃▅▃▄▄▇▇▆▄▇▃▄▅▅▃▆▂▂▅▃▄▇▂
+wandb:              train_cls_loss_time ▆▅▄▃▄▄▆▃▃▄▄▃▃▃▃▇▅▇▇▃▅█▁▁▄▃▂▅▄▂▄▄▄▃▂▄▄▄▄▃
+wandb:                   train_loss_avg █▄▄▃▂▁▂▂▂▂
+wandb:        train_mask_loss_direction ▆▂▃▁▅▅▅▄▅▅▂█▃▂▄▁▃▂▂▁▃▂▄▁▂▅▂▄▅▆▇▃▆▂▃▁▂▂▃▃
+wandb:  train_mask_loss_latitude_no_abs ▅▃▃▂▂▄▂▁▃▃▃▁▃▃▃▁▅▁▁▂▂▁▁▂▂▂█▁▃▄▁▂▁▁▃▂▂▃▂▁
+wandb: train_mask_loss_longitude_no_abs ▆▃▄▃▅▆▃▄▃▃▂▇▄▃▁█▃▃▃▄▅▁▃▄▂▄▃▇▂▂▁▂▄▄▂▄▃▃▂▃
+wandb:            train_mask_loss_speed ▇▄▆▇█▅▄▇▆▁▇▃▆▇▃▄▄▃▅▃▄▄▇▇▆▄▇▃▄▅▅▃▆▂▂▅▄▄▇▂
+wandb:             train_mask_loss_time ▆▅▄▃▄▄▆▃▃▄▄▃▃▃▃▇▅▇▇▃▅█▁▁▄▃▂▅▄▂▄▄▄▃▂▄▄▄▄▃
+wandb:         train_sum_loss_direction ▆▂▃▁▅▅▅▄▅▅▂█▃▂▄▁▃▂▂▁▃▂▄▁▂▅▂▄▅▆▇▃▆▂▃▁▂▂▃▃
+wandb:   train_sum_loss_latitude_no_abs ▅▃▃▂▂▄▂▁▃▃▃▁▃▃▃▁▅▁▁▂▂▁▁▂▂▂█▁▃▃▁▂▁▁▃▂▂▃▂▁
+wandb:  train_sum_loss_longitude_no_abs ▆▃▄▃▅▆▃▄▃▃▂▇▄▃▁█▃▃▃▄▅▁▃▄▂▄▃▇▂▂▁▂▄▄▂▄▃▃▂▃
+wandb:             train_sum_loss_speed ▇▄▆▇█▅▄▇▆▁▇▃▆▇▃▄▄▃▅▃▄▄▇▇▆▄▇▃▄▅▅▃▆▂▂▅▃▄▇▂
+wandb:              train_sum_loss_time ▆▅▄▃▄▄▆▃▃▄▄▃▃▃▃▇▅▇▇▃▅█▁▁▄▃▂▅▄▂▄▄▄▃▂▄▄▄▄▃
+wandb:
+wandb: Run summary:
+wandb:                         loss_avg 0.33259
+wandb:                             norm 0
+wandb:         train_cls_loss_direction 0.15074
+wandb:   train_cls_loss_latitude_no_abs 0.01723
+wandb:  train_cls_loss_longitude_no_abs 0.01633
+wandb:             train_cls_loss_speed 0.01004
+wandb:              train_cls_loss_time 0.62306
+wandb:                   train_loss_avg 0.33259
+wandb:        train_mask_loss_direction 0.15111
+wandb:  train_mask_loss_latitude_no_abs 0.01724
+wandb: train_mask_loss_longitude_no_abs 0.01638
+wandb:            train_mask_loss_speed 0.00992
+wandb:             train_mask_loss_time 0.62175
+wandb:         train_sum_loss_direction 0.00236
+wandb:   train_sum_loss_latitude_no_abs 0.00027
+wandb:  train_sum_loss_longitude_no_abs 0.00026
+wandb:             train_sum_loss_speed 0.00016
+wandb:              train_sum_loss_time 0.00973
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/pretrain/runs/oa2p53xv
+wandb:  View job at https://wandb.ai/lucija_zuzic/pretrain/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTAxMjQwOQ==/version_details/v27
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240329_115324-oa2p53xv\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 12714
+direction 12714
+test 12697
+latitude_no_abs 12697
+test 12697
+longitude_no_abs 12697
+test 12714
+speed 12714
+test 12697
+time 12697
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.22527115046977997, mae:0.1564340442419052
+data_task_name: latitude_no_abs mse:0.04877684265375137, mae:0.11509567499160767
+data_task_name: longitude_no_abs mse:0.03420624881982803, mae:0.0983608216047287
+data_task_name: speed mse:0.03990941122174263, mae:0.12224297970533371
+data_task_name: time mse:0.8816754221916199, mae:0.5699064135551453
+Avg score: LF-mse: 0.2459678202867508, LF-mae: 0.21240799129009247, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.22527115, 'mae': 0.15643404}, 'latitude_no_abs': {'mse': 0.048776843, 'mae': 0.115095675}, 'longitude_no_abs': {'mse': 0.03420625, 'mae': 0.09836082}, 'speed': {'mse': 0.03990941, 'mae': 0.12224298}, 'time': {'mse': 0.8816754, 'mae': 0.5699064}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.21241
+wandb:              avg_eval_LF-mse 0.24597
+wandb:        eval_LF-mae_direction 0.15643
+wandb:  eval_LF-mae_latitude_no_abs 0.1151
+wandb: eval_LF-mae_longitude_no_abs 0.09836
+wandb:            eval_LF-mae_speed 0.12224
+wandb:             eval_LF-mae_time 0.56991
+wandb:        eval_LF-mse_direction 0.22527
+wandb:  eval_LF-mse_latitude_no_abs 0.04878
+wandb: eval_LF-mse_longitude_no_abs 0.03421
+wandb:            eval_LF-mse_speed 0.03991
+wandb:             eval_LF-mse_time 0.88168
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_val/runs/bk4cujio
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_val/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkwNjk2Mg==/version_details/v6
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240403_172518-bk4cujio\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 21515
+direction 21515
+test 21489
+latitude_no_abs 21489
+test 21489
+longitude_no_abs 21489
+test 21515
+speed 21515
+test 21489
+time 21489
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.340844064950943, mae:0.205142542719841
+data_task_name: latitude_no_abs mse:0.06927283853292465, mae:0.13986212015151978
+data_task_name: longitude_no_abs mse:0.02895655669271946, mae:0.09418658167123795
+data_task_name: speed mse:0.04703475534915924, mae:0.1349123865365982
+data_task_name: time mse:0.9710586667060852, mae:0.6337516903877258
+Avg score: LF-mse: 0.2914333939552307, LF-mae: 0.2415710687637329, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.34084406, 'mae': 0.20514254}, 'latitude_no_abs': {'mse': 0.06927284, 'mae': 0.13986212}, 'longitude_no_abs': {'mse': 0.028956557, 'mae': 0.09418658}, 'speed': {'mse': 0.047034755, 'mae': 0.13491239}, 'time': {'mse': 0.97105867, 'mae': 0.6337517}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.24157
+wandb:              avg_eval_LF-mse 0.29143
+wandb:        eval_LF-mae_direction 0.20514
+wandb:  eval_LF-mae_latitude_no_abs 0.13986
+wandb: eval_LF-mae_longitude_no_abs 0.09419
+wandb:            eval_LF-mae_speed 0.13491
+wandb:             eval_LF-mae_time 0.63375
+wandb:        eval_LF-mse_direction 0.34084
+wandb:  eval_LF-mse_latitude_no_abs 0.06927
+wandb: eval_LF-mse_longitude_no_abs 0.02896
+wandb:            eval_LF-mse_speed 0.04703
+wandb:             eval_LF-mse_time 0.97106
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_test/runs/7q33rhvs
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkwOTk0Mg==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240404_203813-7q33rhvs\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 26947
+direction 26947
+test 26914
+latitude_no_abs 26914
+test 26914
+longitude_no_abs 26914
+test 26947
+speed 26947
+test 26914
+time 26914
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.32866814732551575, mae:0.20970235764980316
+data_task_name: latitude_no_abs mse:0.09358152002096176, mae:0.1576184779405594
+data_task_name: longitude_no_abs mse:0.043830372393131256, mae:0.1155029758810997
+data_task_name: speed mse:0.0590234138071537, mae:0.15466512739658356
+data_task_name: time mse:0.9320977330207825, mae:0.6117457151412964
+Avg score: LF-mse: 0.2914402484893799, LF-mae: 0.2498469352722168, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.32866815, 'mae': 0.20970236}, 'latitude_no_abs': {'mse': 0.09358152, 'mae': 0.15761848}, 'longitude_no_abs': {'mse': 0.043830372, 'mae': 0.115502976}, 'speed': {'mse': 0.059023414, 'mae': 0.15466513}, 'time': {'mse': 0.93209773, 'mae': 0.6117457}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.24985
+wandb:              avg_eval_LF-mse 0.29144
+wandb:        eval_LF-mae_direction 0.2097
+wandb:  eval_LF-mae_latitude_no_abs 0.15762
+wandb: eval_LF-mae_longitude_no_abs 0.1155
+wandb:            eval_LF-mae_speed 0.15467
+wandb:             eval_LF-mae_time 0.61175
+wandb:        eval_LF-mse_direction 0.32867
+wandb:  eval_LF-mse_latitude_no_abs 0.09358
+wandb: eval_LF-mse_longitude_no_abs 0.04383
+wandb:            eval_LF-mse_speed 0.05902
+wandb:             eval_LF-mse_time 0.9321
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_2_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_train_test/runs/ny3n551g
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_2_train_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDExNjg3Mg==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240404_205313-ny3n551g\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 12697
+direction 12697
+test 12679
+latitude_no_abs 12679
+test 12679
+longitude_no_abs 12679
+test 12697
+speed 12697
+test 12679
+time 12679
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.25765714049339294, mae:0.18919983506202698
+data_task_name: latitude_no_abs mse:0.0662572905421257, mae:0.13756074011325836
+data_task_name: longitude_no_abs mse:0.04577437415719032, mae:0.11707396805286407
+data_task_name: speed mse:0.05873472988605499, mae:0.14780889451503754
+data_task_name: time mse:0.7992699146270752, mae:0.5730681419372559
+Avg score: LF-mse: 0.24553868174552917, LF-mae: 0.23294231295585632, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.25765714, 'mae': 0.18919984}, 'latitude_no_abs': {'mse': 0.06625729, 'mae': 0.13756074}, 'longitude_no_abs': {'mse': 0.045774374, 'mae': 0.11707397}, 'speed': {'mse': 0.05873473, 'mae': 0.1478089}, 'time': {'mse': 0.7992699, 'mae': 0.57306814}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.23294
+wandb:              avg_eval_LF-mse 0.24554
+wandb:        eval_LF-mae_direction 0.1892
+wandb:  eval_LF-mae_latitude_no_abs 0.13756
+wandb: eval_LF-mae_longitude_no_abs 0.11707
+wandb:            eval_LF-mae_speed 0.14781
+wandb:             eval_LF-mae_time 0.57307
+wandb:        eval_LF-mse_direction 0.25766
+wandb:  eval_LF-mse_latitude_no_abs 0.06626
+wandb: eval_LF-mse_longitude_no_abs 0.04577
+wandb:            eval_LF-mse_speed 0.05873
+wandb:             eval_LF-mse_time 0.79927
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_val/runs/4kdrae0q
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_val/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkxNzg5MA==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240404_210657-4kdrae0q\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 21489
+direction 21489
+test 21463
+latitude_no_abs 21463
+test 21463
+longitude_no_abs 21463
+test 21489
+speed 21489
+test 21463
+time 21463
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.3963162302970886, mae:0.24792194366455078
+data_task_name: latitude_no_abs mse:0.09127549082040787, mae:0.16552995145320892
+data_task_name: longitude_no_abs mse:0.0373089499771595, mae:0.11013404279947281
+data_task_name: speed mse:0.06835249066352844, mae:0.1618531346321106
+data_task_name: time mse:0.9154081344604492, mae:0.6506608724594116
+Avg score: LF-mse: 0.30173224210739136, LF-mae: 0.26721999049186707, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.39631623, 'mae': 0.24792194}, 'latitude_no_abs': {'mse': 0.09127549, 'mae': 0.16552995}, 'longitude_no_abs': {'mse': 0.03730895, 'mae': 0.11013404}, 'speed': {'mse': 0.06835249, 'mae': 0.16185313}, 'time': {'mse': 0.91540813, 'mae': 0.6506609}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.26722
+wandb:              avg_eval_LF-mse 0.30173
+wandb:        eval_LF-mae_direction 0.24792
+wandb:  eval_LF-mae_latitude_no_abs 0.16553
+wandb: eval_LF-mae_longitude_no_abs 0.11013
+wandb:            eval_LF-mae_speed 0.16185
+wandb:             eval_LF-mae_time 0.65066
+wandb:        eval_LF-mse_direction 0.39632
+wandb:  eval_LF-mse_latitude_no_abs 0.09128
+wandb: eval_LF-mse_longitude_no_abs 0.03731
+wandb:            eval_LF-mse_speed 0.06835
+wandb:             eval_LF-mse_time 0.91541
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_test/runs/rrq3ywt3
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkyMjQ2NQ==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240404_211432-rrq3ywt3\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 26914
+direction 26914
+test 26880
+latitude_no_abs 26880
+test 26880
+longitude_no_abs 26880
+test 26914
+speed 26914
+test 26880
+time 26880
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.3783215880393982, mae:0.2520175874233246
+data_task_name: latitude_no_abs mse:0.11634624749422073, mae:0.18705667555332184
+data_task_name: longitude_no_abs mse:0.05780060961842537, mae:0.1372971087694168
+data_task_name: speed mse:0.08377815783023834, mae:0.18388642370700836
+data_task_name: time mse:0.8715333342552185, mae:0.623985230922699
+Avg score: LF-mse: 0.30155596137046814, LF-mae: 0.27684861421585083, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.3783216, 'mae': 0.2520176}, 'latitude_no_abs': {'mse': 0.11634625, 'mae': 0.18705668}, 'longitude_no_abs': {'mse': 0.05780061, 'mae': 0.13729711}, 'speed': {'mse': 0.08377816, 'mae': 0.18388642}, 'time': {'mse': 0.87153333, 'mae': 0.62398523}}
+wandb: | 0.034 MB of 0.034 MB uploaded
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.27685
+wandb:              avg_eval_LF-mse 0.30156
+wandb:        eval_LF-mae_direction 0.25202
+wandb:  eval_LF-mae_latitude_no_abs 0.18706
+wandb: eval_LF-mae_longitude_no_abs 0.1373
+wandb:            eval_LF-mae_speed 0.18389
+wandb:             eval_LF-mae_time 0.62399
+wandb:        eval_LF-mse_direction 0.37832
+wandb:  eval_LF-mse_latitude_no_abs 0.11635
+wandb: eval_LF-mse_longitude_no_abs 0.0578
+wandb:            eval_LF-mse_speed 0.08378
+wandb:             eval_LF-mse_time 0.87153
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_3_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_train_test/runs/wbq4r7mz
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_3_train_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDEyNzIxMw==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_040737-wbq4r7mz\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 12679
+direction 12679
+test 12662
+latitude_no_abs 12662
+test 12662
+longitude_no_abs 12662
+test 12679
+speed 12679
+test 12662
+time 12662
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.2851658761501312, mae:0.2176361232995987
+data_task_name: latitude_no_abs mse:0.08207513391971588, mae:0.15711714327335358
+data_task_name: longitude_no_abs mse:0.05682509392499924, mae:0.13365794718265533
+data_task_name: speed mse:0.07823433727025986, mae:0.16985581815242767
+data_task_name: time mse:0.7424842119216919, mae:0.5250363349914551
+Avg score: LF-mse: 0.24895691871643066, LF-mae: 0.2406606674194336, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.28516588, 'mae': 0.21763612}, 'latitude_no_abs': {'mse': 0.082075134, 'mae': 0.15711714}, 'longitude_no_abs': {'mse': 0.056825094, 'mae': 0.13365795}, 'speed': {'mse': 0.07823434, 'mae': 0.16985582}, 'time': {'mse': 0.7424842, 'mae': 0.52503633}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.24066
+wandb:              avg_eval_LF-mse 0.24896
+wandb:        eval_LF-mae_direction 0.21764
+wandb:  eval_LF-mae_latitude_no_abs 0.15712
+wandb: eval_LF-mae_longitude_no_abs 0.13366
+wandb:            eval_LF-mae_speed 0.16986
+wandb:             eval_LF-mae_time 0.52504
+wandb:        eval_LF-mse_direction 0.28517
+wandb:  eval_LF-mse_latitude_no_abs 0.08208
+wandb: eval_LF-mse_longitude_no_abs 0.05683
+wandb:            eval_LF-mse_speed 0.07823
+wandb:             eval_LF-mse_time 0.74248
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_val/runs/8rupp3wc
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_val/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkyNTQxMw==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_044152-8rupp3wc\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 21463
+direction 21463
+test 21437
+latitude_no_abs 21437
+test 21437
+longitude_no_abs 21437
+test 21463
+speed 21463
+test 21437
+time 21437
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.4243295192718506, mae:0.28223279118537903
+data_task_name: latitude_no_abs mse:0.11508165299892426, mae:0.18814747035503387
+data_task_name: longitude_no_abs mse:0.04543612152338028, mae:0.12346545606851578
+data_task_name: speed mse:0.0904272049665451, mae:0.18583501875400543
+data_task_name: time mse:0.8282900452613831, mae:0.5887255668640137
+Avg score: LF-mse: 0.300712913274765, LF-mae: 0.27368125319480896, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.42432952, 'mae': 0.2822328}, 'latitude_no_abs': {'mse': 0.11508165, 'mae': 0.18814747}, 'longitude_no_abs': {'mse': 0.04543612, 'mae': 0.123465456}, 'speed': {'mse': 0.090427205, 'mae': 0.18583502}, 'time': {'mse': 0.82829005, 'mae': 0.58872557}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.27368
+wandb:              avg_eval_LF-mse 0.30071
+wandb:        eval_LF-mae_direction 0.28223
+wandb:  eval_LF-mae_latitude_no_abs 0.18815
+wandb: eval_LF-mae_longitude_no_abs 0.12347
+wandb:            eval_LF-mae_speed 0.18584
+wandb:             eval_LF-mae_time 0.58873
+wandb:        eval_LF-mse_direction 0.42433
+wandb:  eval_LF-mse_latitude_no_abs 0.11508
+wandb: eval_LF-mse_longitude_no_abs 0.04544
+wandb:            eval_LF-mse_speed 0.09043
+wandb:             eval_LF-mse_time 0.82829
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_test/runs/yxpa8zcg
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkzMDQxMg==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_045016-yxpa8zcg\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 26880
+direction 26880
+test 26847
+latitude_no_abs 26847
+test 26847
+longitude_no_abs 26847
+test 26880
+speed 26880
+test 26847
+time 26847
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.40937721729278564, mae:0.286967933177948
+data_task_name: latitude_no_abs mse:0.14202295243740082, mae:0.2119869738817215
+data_task_name: longitude_no_abs mse:0.06981117278337479, mae:0.15496817231178284
+data_task_name: speed mse:0.10853473842144012, mae:0.2093331515789032
+data_task_name: time mse:0.7895677089691162, mae:0.5626118779182434
+Avg score: LF-mse: 0.3038627505302429, LF-mae: 0.28517359495162964, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.40937722, 'mae': 0.28696793}, 'latitude_no_abs': {'mse': 0.14202295, 'mae': 0.21198697}, 'longitude_no_abs': {'mse': 0.06981117, 'mae': 0.15496817}, 'speed': {'mse': 0.10853474, 'mae': 0.20933315}, 'time': {'mse': 0.7895677, 'mae': 0.5626119}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.28517
+wandb:              avg_eval_LF-mse 0.30386
+wandb:        eval_LF-mae_direction 0.28697
+wandb:  eval_LF-mae_latitude_no_abs 0.21199
+wandb: eval_LF-mae_longitude_no_abs 0.15497
+wandb:            eval_LF-mae_speed 0.20933
+wandb:             eval_LF-mae_time 0.56261
+wandb:        eval_LF-mse_direction 0.40938
+wandb:  eval_LF-mse_latitude_no_abs 0.14202
+wandb: eval_LF-mse_longitude_no_abs 0.06981
+wandb:            eval_LF-mse_speed 0.10853
+wandb:             eval_LF-mse_time 0.78957
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_4_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_train_test/runs/18esfmp9
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_4_train_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDEzNzM4Mg==/version_details/v2      
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_051422-18esfmp9\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 12662
+direction 12662
+test 12645
+latitude_no_abs 12645
+test 12645
+longitude_no_abs 12645
+test 12662
+speed 12662
+test 12645
+time 12645
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.3146010637283325, mae:0.24151329696178436
+data_task_name: latitude_no_abs mse:0.1043531596660614, mae:0.17694202065467834
+data_task_name: longitude_no_abs mse:0.07257133722305298, mae:0.1502583771944046
+data_task_name: speed mse:0.0997169017791748, mae:0.19017674028873444
+data_task_name: time mse:0.7004289031028748, mae:0.5235875844955444
+Avg score: LF-mse: 0.2583342492580414, LF-mae: 0.2564955949783325, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.31460106, 'mae': 0.2415133}, 'latitude_no_abs': {'mse': 0.10435316, 'mae': 0.17694202}, 'longitude_no_abs': {'mse': 0.07257134, 'mae': 0.15025838}, 'speed': {'mse': 0.0997169, 'mae': 0.19017674}, 'time': {'mse': 0.7004289, 'mae': 0.5235876}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.2565
+wandb:              avg_eval_LF-mse 0.25833
+wandb:        eval_LF-mae_direction 0.24151
+wandb:  eval_LF-mae_latitude_no_abs 0.17694
+wandb: eval_LF-mae_longitude_no_abs 0.15026
+wandb:            eval_LF-mae_speed 0.19018
+wandb:             eval_LF-mae_time 0.52359
+wandb:        eval_LF-mse_direction 0.3146
+wandb:  eval_LF-mse_latitude_no_abs 0.10435
+wandb: eval_LF-mse_longitude_no_abs 0.07257
+wandb:            eval_LF-mse_speed 0.09972
+wandb:             eval_LF-mse_time 0.70043
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_val/runs/lwlqgteg
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_val/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MzkzNDMzNQ==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_053641-lwlqgteg\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 21437
+direction 21437
+test 21411
+latitude_no_abs 21411
+test 21411
+longitude_no_abs 21411
+test 21437
+speed 21437
+test 21411
+time 21411
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.4685039520263672, mae:0.31277039647102356
+data_task_name: latitude_no_abs mse:0.14108999073505402, mae:0.20926077663898468
+data_task_name: longitude_no_abs mse:0.05410206317901611, mae:0.135502427816391
+data_task_name: speed mse:0.11333175748586655, mae:0.206950843334198
+data_task_name: time mse:0.8002724051475525, mae:0.5883820652961731
+Avg score: LF-mse: 0.3154600262641907, LF-mae: 0.2905732989311218, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.46850395, 'mae': 0.3127704}, 'latitude_no_abs': {'mse': 0.14108999, 'mae': 0.20926078}, 'longitude_no_abs': {'mse': 0.054102063, 'mae': 0.13550243}, 'speed': {'mse': 0.11333176, 'mae': 0.20695084}, 'time': {'mse': 0.8002724, 'mae': 0.58838207}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.29057
+wandb:              avg_eval_LF-mse 0.31546
+wandb:        eval_LF-mae_direction 0.31277
+wandb:  eval_LF-mae_latitude_no_abs 0.20926
+wandb: eval_LF-mae_longitude_no_abs 0.1355
+wandb:            eval_LF-mae_speed 0.20695
+wandb:             eval_LF-mae_time 0.58838
+wandb:        eval_LF-mse_direction 0.4685
+wandb:  eval_LF-mse_latitude_no_abs 0.14109
+wandb: eval_LF-mse_longitude_no_abs 0.0541
+wandb:            eval_LF-mse_speed 0.11333
+wandb:             eval_LF-mse_time 0.80027
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_test/runs/c683lehq
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1Mzk0MDQ3MA==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_054540-c683lehq\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 26847
+direction 26847
+test 26814
+latitude_no_abs 26814
+test 26814
+longitude_no_abs 26814
+test 26847
+speed 26847
+test 26814
+time 26814
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.4428223669528961, mae:0.3135688900947571
+data_task_name: latitude_no_abs mse:0.16996905207633972, mae:0.23529358208179474
+data_task_name: longitude_no_abs mse:0.08416690677404404, mae:0.1717105656862259
+data_task_name: speed mse:0.13362331688404083, mae:0.23183342814445496
+data_task_name: time mse:0.7603015899658203, mae:0.566926121711731
+Avg score: LF-mse: 0.31817665696144104, LF-mae: 0.30386650562286377, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.44282237, 'mae': 0.3135689}, 'latitude_no_abs': {'mse': 0.16996905, 'mae': 0.23529358}, 'longitude_no_abs': {'mse': 0.08416691, 'mae': 0.17171057}, 'speed': {'mse': 0.13362332, 'mae': 0.23183343}, 'time': {'mse': 0.7603016, 'mae': 0.5669261}}
+wandb: / 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.30387
+wandb:              avg_eval_LF-mse 0.31818
+wandb:        eval_LF-mae_direction 0.31357
+wandb:  eval_LF-mae_latitude_no_abs 0.23529
+wandb: eval_LF-mae_longitude_no_abs 0.17171
+wandb:            eval_LF-mae_speed 0.23183
+wandb:             eval_LF-mae_time 0.56693
+wandb:        eval_LF-mse_direction 0.44282
+wandb:  eval_LF-mse_latitude_no_abs 0.16997
+wandb: eval_LF-mse_longitude_no_abs 0.08417
+wandb:            eval_LF-mse_speed 0.13362
+wandb:             eval_LF-mse_time 0.7603
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_5_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_train_test/runs/wp1nqssc
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_5_train_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDE0MjExOA==/version_details/v2      
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_060210-wp1nqssc\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 12645
+direction 12645
+test 12627
+latitude_no_abs 12627
+test 12627
+longitude_no_abs 12627
+test 12645
+speed 12645
+test 12627
+time 12627
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.3549760580062866, mae:0.27184155583381653
+data_task_name: latitude_no_abs mse:0.11784680932760239, mae:0.19142234325408936
+data_task_name: longitude_no_abs mse:0.08083777129650116, mae:0.1622912585735321
+data_task_name: speed mse:0.11287055909633636, mae:0.20595957338809967
+data_task_name: time mse:0.6292421221733093, mae:0.46398282051086426
+Avg score: LF-mse: 0.25915464758872986, LF-mae: 0.2590995132923126, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.35497606, 'mae': 0.27184156}, 'latitude_no_abs': {'mse': 0.11784681, 'mae': 0.19142234}, 'longitude_no_abs': {'mse': 0.08083777, 'mae': 0.16229126}, 'speed': {'mse': 0.11287056, 'mae': 0.20595957}, 'time': {'mse': 0.6292421, 'mae': 0.46398282}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.2591
+wandb:              avg_eval_LF-mse 0.25915
+wandb:        eval_LF-mae_direction 0.27184
+wandb:  eval_LF-mae_latitude_no_abs 0.19142
+wandb: eval_LF-mae_longitude_no_abs 0.16229
+wandb:            eval_LF-mae_speed 0.20596
+wandb:             eval_LF-mae_time 0.46398
+wandb:        eval_LF-mse_direction 0.35498
+wandb:  eval_LF-mse_latitude_no_abs 0.11785
+wandb: eval_LF-mse_longitude_no_abs 0.08084
+wandb:            eval_LF-mse_speed 0.11287
+wandb:             eval_LF-mse_time 0.62924
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_val_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_val/runs/bbwmjovo
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_val/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1Mzk0MzcxMQ==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_063204-bbwmjovo\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 21411
+direction 21411
+test 21385
+latitude_no_abs 21385
+test 21385
+longitude_no_abs 21385
+test 21411
+speed 21411
+test 21385
+time 21385
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.5244700908660889, mae:0.3501914143562317
+data_task_name: latitude_no_abs mse:0.15714654326438904, mae:0.22542023658752441
+data_task_name: longitude_no_abs mse:0.06038246676325798, mae:0.1458791345357895
+data_task_name: speed mse:0.1290741115808487, mae:0.22411805391311646
+data_task_name: time mse:0.6927619576454163, mae:0.5168816447257996
+Avg score: LF-mse: 0.31276702880859375, LF-mae: 0.2924981117248535, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.5244701, 'mae': 0.3501914}, 'latitude_no_abs': {'mse': 0.15714654, 'mae': 0.22542024}, 'longitude_no_abs': {'mse': 0.060382467, 'mae': 0.14587913}, 'speed': {'mse': 0.12907411, 'mae': 0.22411805}, 'time': {'mse': 0.69276196, 'mae': 0.51688164}}
+wandb: | 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.2925
+wandb:              avg_eval_LF-mse 0.31277
+wandb:        eval_LF-mae_direction 0.35019
+wandb:  eval_LF-mae_latitude_no_abs 0.22542
+wandb: eval_LF-mae_longitude_no_abs 0.14588
+wandb:            eval_LF-mae_speed 0.22412
+wandb:             eval_LF-mae_time 0.51688
+wandb:        eval_LF-mse_direction 0.52447
+wandb:  eval_LF-mse_latitude_no_abs 0.15715
+wandb: eval_LF-mse_longitude_no_abs 0.06038
+wandb:            eval_LF-mse_speed 0.12907
+wandb:             eval_LF-mse_time 0.69276
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_test/runs/d2j5qss0
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1Mzk0NjU3OQ==/version_details/v2
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_064020-d2j5qss0\logs
+
+device id 0
+>>>>>>>testing : ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 26814
+direction 26814
+test 26780
+latitude_no_abs 26780
+test 26780
+longitude_no_abs 26780
+test 26814
+speed 26814
+test 26780
+time 26780
+loading pretrained model: checkpoints/ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0/pretrain_checkpoint.pth      
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['module.pretrain_head.proj_in.weight', 'module.pretrain_head.proj_in.bias', 'module.pretrain_head.mlp.fc1.weight', 'module.pretrain_head.mlp.fc1.bias', 'module.pretrain_head.mlp.fc2.weight', 'module.pretrain_head.mlp.fc2.bias', 'module.pretrain_head.proj_out.weight', 'module.pretrain_head.proj_out.bias', 'module.pretrain_head.pos_proj.weights', 'module.pretrain_head.pos_proj.bias'])
+data_task_name: direction mse:0.49325233697891235, mae:0.3503444194793701
+data_task_name: latitude_no_abs mse:0.19085854291915894, mae:0.25427863001823425
+data_task_name: longitude_no_abs mse:0.09410883486270905, mae:0.18478244543075562
+data_task_name: speed mse:0.15198296308517456, mae:0.2506474256515503
+data_task_name: time mse:0.6612483859062195, mae:0.4979432225227356
+Avg score: LF-mse: 0.31829020380973816, LF-mae: 0.3075992166996002, CLS-acc nan, IMP-mse: nan, IMP-mae: nan, Ano-F: nan
+{'direction': {'mse': 0.49325234, 'mae': 0.35034442}, 'latitude_no_abs': {'mse': 0.19085854, 'mae': 0.25427863}, 'longitude_no_abs': {'mse': 0.094108835, 'mae': 0.18478245}, 'speed': {'mse': 0.15198296, 'mae': 0.25064743}, 'time': {'mse': 0.6612484, 'mae': 0.49794322}}
+wandb: \ 0.048 MB of 0.048 MB uploaded (0.008 MB deduped)
+wandb: Run history:
+wandb:              avg_eval_LF-mae ▁
+wandb:              avg_eval_LF-mse ▁
+wandb:        eval_LF-mae_direction ▁
+wandb:  eval_LF-mae_latitude_no_abs ▁
+wandb: eval_LF-mae_longitude_no_abs ▁
+wandb:            eval_LF-mae_speed ▁
+wandb:             eval_LF-mae_time ▁
+wandb:        eval_LF-mse_direction ▁
+wandb:  eval_LF-mse_latitude_no_abs ▁
+wandb: eval_LF-mse_longitude_no_abs ▁
+wandb:            eval_LF-mse_speed ▁
+wandb:             eval_LF-mse_time ▁
+wandb:
+wandb: Run summary:
+wandb:     avg_eval_Anomaly-f_score nan
+wandb:             avg_eval_CLS-acc nan
+wandb:             avg_eval_IMP-mae nan
+wandb:             avg_eval_IMP-mse nan
+wandb:              avg_eval_LF-mae 0.3076
+wandb:              avg_eval_LF-mse 0.31829
+wandb:        eval_LF-mae_direction 0.35034
+wandb:  eval_LF-mae_latitude_no_abs 0.25428
+wandb: eval_LF-mae_longitude_no_abs 0.18478
+wandb:            eval_LF-mae_speed 0.25065
+wandb:             eval_LF-mae_time 0.49794
+wandb:        eval_LF-mse_direction 0.49325
+wandb:  eval_LF-mse_latitude_no_abs 0.19086
+wandb: eval_LF-mse_longitude_no_abs 0.09411
+wandb:            eval_LF-mse_speed 0.15198
+wandb:             eval_LF-mse_time 0.66125
+wandb:
+wandb:  View run ALL_task_UniTS_zeroshot_pretrain_x64_mine_all_6_train_test_UniTS_zeroshot_All_ftM_dm64_el3_Exp at: https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_train_test/runs/5tku6y5b
+wandb:  View job at https://wandb.ai/lucija_zuzic/zeroshot_newdata_mine_all_6_train_test/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDE0NTM2MA==/version_details/v2      
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20240405_065623-5tku6y5b\logs
