@@ -638,7 +638,7 @@ class Exp_All_Task(object):
         trues_transformed = []
 
         self.model.eval()
-        part_model = setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train").split("_")
+        part_model = setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train").split("_")
         len_model = int(part_model[-2])
         with torch.no_grad():
             for i, (batch_x, batch_y, _, _) in enumerate(test_loader):
@@ -704,25 +704,25 @@ class Exp_All_Task(object):
         preds = preds.reshape(-1, preds.shape[-2], preds.shape[-1])
         trues = trues.reshape(-1, trues.shape[-2], trues.shape[-1]) 
 
-        if not os.path.isdir("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train")):
-            os.makedirs("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train")) 
+        if not os.path.isdir("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train")):
+            os.makedirs("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train")) 
         import pickle
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/xs_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/xs_" + data_task_name, 'wb') as file_object:
             pickle.dump(xs, file_object) 
             file_object.close()
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/preds_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/preds_" + data_task_name, 'wb') as file_object:
             pickle.dump(preds, file_object) 
             file_object.close()
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/trues_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/trues_" + data_task_name, 'wb') as file_object:
             pickle.dump(trues, file_object) 
             file_object.close()
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/xs_transformed_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/xs_transformed_" + data_task_name, 'wb') as file_object:
             pickle.dump(xs_transformed, file_object) 
             file_object.close()
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/preds_transformed_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/preds_transformed_" + data_task_name, 'wb') as file_object:
             pickle.dump(preds_transformed, file_object) 
             file_object.close()
-        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/trues_transformed_" + data_task_name, 'wb') as file_object:
+        with open("results/" + setting.replace("ALL_task_UniTS_zeroshot_pretrain_x64_mine_skip_", "").replace("_UniTS_zeroshot_All_ftM_dm64_el3_Exp_0", "").replace("train_test", "train") + "/trues_transformed_" + data_task_name, 'wb') as file_object:
             pickle.dump(trues_transformed, file_object) 
             file_object.close()
 

@@ -29,7 +29,7 @@ def translate_category(long):
     translate_name = {
         "long no abs": "$x$ and $y$ offset",  
         "long speed dir": "Speed, heading, and time", 
-        "long speed ones dir": "Speed, heading, and a 1s time interval", 
+        "long speed ones dir": "Speed, heading, and a 3s time interval", 
     }
     if long in translate_name:
         return translate_name[long]
@@ -377,10 +377,10 @@ for pair_best in find_all:
     vehicle = split_file_veh[0].replace("Watercraft_", "")
     ride = split_file_veh[-1].replace("events_", "").replace(".csv", "")
 
-    if not os.path.isdir("mosaic_attention"):
-        os.makedirs("mosaic_attention/")
+    if not os.path.isdir("mosaic_UniTS"):
+        os.makedirs("mosaic_UniTS/")
 
-    filename = "mosaic_attention/Watercraft_" + vehicle + "_events_" + ride + "_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
+    filename = "mosaic_UniTS/Watercraft_" + vehicle + "_events_" + ride + "_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
     draw_mosaic_one(actual_long_one, actual_lat_one, predicted_long_one, predicted_lat_one, k, model_name, filename, dist_name)
     
 for model_name in distance_predicted_new["euclidean"]:
@@ -473,8 +473,8 @@ for metric in metric_names:
                     all_actual.append({"long": actual_long_one, "lat": actual_lat_one})
                     all_predicted.append({"long": predicted_long_one, "lat": predicted_lat_one})
                 
-                filename_veh = "mosaic_attention/Watercraft_" + str(v) + "_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
+                filename_veh = "mosaic_UniTS/Watercraft_" + str(v) + "_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
                 draw_mosaic(all_actual_vehicle, all_predicted, filename_veh)
 
-            filename = "mosaic_attention/all_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
+            filename = "mosaic_UniTS/all_" + model_name + "_" + dist_name + "_" + dist_name.replace("long", "lat") + "_test_mosaic.png"
             draw_mosaic(all_actual, all_predicted, filename)

@@ -285,10 +285,13 @@ def find_match_Y(transformed_pd_file, transformed_true_file, transformed_pred_fi
     
 varnames = ["direction", "speed", "time", "longitude_no_abs", "latitude_no_abs"]
 first_sufix = ["S_", "MS_"]
-second_sufix = ["", "all_"]
-types_used = ["train", "val", "test"]
+second_sufix = ["all_"]
+types_used = ["test"]
 
-for num in range(2, 7): 
+second_sufix = [""]
+types_used = ["val"]
+
+for num in range(6, 11): 
 
     for varname in varnames: 
 

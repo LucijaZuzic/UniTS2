@@ -41,14 +41,14 @@ for varname in varnames:
     with open("actual/actual_" + varname, 'rb') as file_object:
         file_object_test = pickle.load(file_object)
 
-    all_mine_flat = []
+    all_mine_skip_flat = []
     for filename in file_object_test: 
         for val in file_object_test[filename]:
-            all_mine_flat.append(val)
+            all_mine_skip_flat.append(val)
 
     min_combo = (varname, -1, -1, -1, -1)
     min_combo_val = 1000000
-    for num in range(2, 7):
+    for num in range(6, 11):
         for s1 in first_sufix:
                 #print(varname, num, s1, s2, t)
 
@@ -72,7 +72,7 @@ for varname in varnames:
 
                 final_train_MAE = mean_absolute_error(preds_val, pd_file_val_transformed)
                 final_train_R2 = r2_score(preds_val, pd_file_val_transformed)
-                final_train_RMSE = math.sqrt(mean_squared_error(preds_val, pd_file_val_transformed) / (max(all_mine_flat) - min(all_mine_flat)))
+                final_train_RMSE = math.sqrt(mean_squared_error(preds_val, pd_file_val_transformed) / (max(all_mine_skip_flat) - min(all_mine_skip_flat)))
                 #print(final_train_MAE, final_train_R2, final_train_RMSE)
 
                 if final_train_RMSE < min_combo_val:
@@ -93,10 +93,10 @@ for varname in chose_vals:
     with open("actual/actual_" + varname, 'rb') as file_object:
         file_object_test = pickle.load(file_object)
 
-    all_mine_flat = []
+    all_mine_skip_flat = []
     for filename in file_object_test: 
         for val in file_object_test[filename]:
-            all_mine_flat.append(val)
+            all_mine_skip_flat.append(val)
 
     predicted_all[varname] = dict()
     predicted_all[varname][model_name] = dict()
@@ -139,7 +139,7 @@ for varname in chose_vals:
 
     final_train_MAE = mean_absolute_error(preds_val, pd_file_val_transformed)
     final_train_R2 = r2_score(preds_val, pd_file_val_transformed)
-    final_train_RMSE = math.sqrt(mean_squared_error(preds_val, pd_file_val_transformed) / (max(all_mine_flat) - min(all_mine_flat)))
+    final_train_RMSE = math.sqrt(mean_squared_error(preds_val, pd_file_val_transformed) / (max(all_mine_skip_flat) - min(all_mine_skip_flat)))
     print(varname, final_train_MAE, np.round(final_train_R2 * 100, 2), np.round(final_train_RMSE * 100, 2))
     
 if not os.path.isdir("UNITS_result/"):
